@@ -59,4 +59,4 @@ To do all at once, I can simply run:
 docker exec -it `docker-id my-railsapp` /bin/bash
 {% endhighlight %}
 
-That's all for now. I'm planning to do additional testing to see if `docker exec` opens up other possibilities for streamlining our workflow and reducing the complexity of our running containers. But so far I've integrated it into my workflow and it's been a definite win. Comments / feedback or [corrections via github pull request](https://github.com/VentureUnknown/ventureunknown.github.io/blob/master/_posts/2014-11-06-docker-exec-devops-and-debugging.md) are always welcome.
+That's all for now. I'm planning to do additional testing to see if `docker exec` opens up other possibilities for streamlining our workflow and reducing the complexity of our running containers. But so far I've integrated it into my workflow and it's been a definite win. Comments / feedback or [corrections via github pull request](https://github.com/codetaco/codetaco.com/blob/master/_posts/2014-11-06-docker-exec-devops-and-debugging.md) are always welcome.
