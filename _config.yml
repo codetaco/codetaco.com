@@ -1,10 +1,10 @@
 # Site settings
 title:       Code Taco
-email:       joe@codeta.co
+email:       joe@codetaco.com
 author:      Code Taco
 description: "Bit-sized code tips and goodness for developers."
 baseurl:     ""
-url:         "http://www.codeta.co"
+url:         "http://www.codetaco.com"
 
 # Google analytics
 google_analytics:
