@@ -16,6 +16,8 @@ Most CDNs support redirect rules, but not rewrite rules.
 
 # Solutions
 
+* set index.html as error page in s3 bucket
+  * works, but still returns 404 to client which could break CDN
 * http://stackoverflow.com/questions/16267339/s3-static-website-hosting-route-all-paths-to-index-html
 * Elastic Load Balancer
 * server that does rewrite rules as backing for CDN
