@@ -12,3 +12,10 @@ dependencies into the container is less than ideal.
   - works, but could be slow due to rubygems.org or npmjs.org
 2. bind mount in the gems folder
   - works, but leaves artifacts in the host
+
+## Workflow
+
+Developers are used to running `bundle install` on their dev machines.
+To support this workflow, the gem folder needs to be bind mounted into Docker,
+effectively sharing the same folder on dev machine and container.
+
